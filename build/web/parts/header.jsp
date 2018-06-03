@@ -26,7 +26,7 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="maquetado/css/style.css">
         <link rel="stylesheet" href="maquetado/css/main2.css">
-                <link rel="stylesheet" href="maquetado/css/main.css">
+        <link rel="stylesheet" href="maquetado/css/main.css">
 
 
 

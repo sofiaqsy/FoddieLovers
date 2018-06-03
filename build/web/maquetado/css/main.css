@@ -124,24 +124,7 @@ li.item{
     -o-transform:rotate(180deg);
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
 
-.clear::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-h1, h2, p, span, a {
-    font-family: "museo-sans", helvetica, sans-serif;
-    color: #2f2e2f;
-    margin: 0;
-    padding: 0;
-}
 
 .limit {
     max-width: 1200px;
