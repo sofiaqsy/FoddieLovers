@@ -33,6 +33,7 @@
           <li ><a href="tel://1234567920">Comida criolla</a></li>
           <li ><a href="mailto:info@yoursite.com">marino</a></li>
           <li ><a href="http://freehtml5.co">Arquitectura</a></li>
+          <li><a href="/FoodieLovers/producto?metodo=lista">Lista de productos</a></li>
         </ul>
       </div>
 
