@@ -27,6 +27,7 @@
 	<link rel="stylesheet" href="maquetado/css/style.css">
         <link rel="stylesheet" href="maquetado/css/main2.css">
         <link rel="stylesheet" href="maquetado/css/main.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 
 

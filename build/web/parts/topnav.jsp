@@ -20,8 +20,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav main-nav  clear navbar-right ">
-                            <li><a class="navactive color_animation" href="#top">HOME</a></li>
-                            <li><a class="color_animation" href="#reservation">LOGIN</a></li>
+                            <li><a style="margin:0px;padding: 5px 10px" class="navactive color_animation" href="#top">HOME</a></li>
+                            <li><a style="margin:0px;padding: 5px 10px" class="navactive color_animation" href="#top">Admin</a></li>
+                            <li><a style="margin:0px;padding: 5px 30px" class="login color_animation_login" href="#reservation">LOGIN</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>

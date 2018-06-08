@@ -97,12 +97,12 @@ public class ProductoController extends HttpServlet {
         
             ProductoModel model = new ProductoModel();
             List<Producto> data = model.listaProducto();
-
+            
             //Se almacena en memoria llamada request
             request.setAttribute("data",data);
 
             //Se reenvia el request(con los datos) al jsp listaAlumno.jsp
-            request.getRequestDispatcher("/foodielovers/productoList.jsp").forward(request, response);
+            request.getRequestDispatcher("/foodielovers/admin/productoList.jsp").forward(request, response);
     }
 
     protected void actualiza(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

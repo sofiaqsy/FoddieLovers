@@ -15,7 +15,6 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
-  color: #828282;
   background: #fff;
 }
 
@@ -1594,10 +1593,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control {
   box-shadow: none;
   background: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 54px;
-  font-size: 14px;
-  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .form-control:active, .form-control:focus {
   outline: none;
@@ -1635,5 +1631,27 @@ h1, h2, h3, h4, h5, h6, figure {
 .js .animate-box {
   opacity: 0;
 }
+
+
+         .nav-stacked li{
+                    border-radius :5px;
+                    border : 1px solid #333333;
+                    opacity: 0.8;
+                }
+                a {
+                    color : #333333
+                }
+                .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+                    color:#fff;
+                    background-color :#333333
+                }
+                li{
+                    list-style:none
+                }
+
+                .cero_margin_padding{
+                    margin: 0px;
+                    padding: 0px;
+                }
 
 /*# sourceMappingURL=style.css.map */

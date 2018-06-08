@@ -19,8 +19,17 @@ h1 {
     letter-spacing: 0.040em;
     border: 1px solid rgba(47, 46, 47, 0.59);
 }
-.navactive{
-   border-bottom: 1px solid #96E16B;
+.default{
+   border:  1px solid #f15500;
+   border-radius: 20px;
+   
+}
+
+.login{
+   border:  2px solid #f15500;
+   border-radius: 20px;
+   background-color:  #f15500;
+   color : #fff;
 }
 p.desc-text{
     font-size: 20px;
@@ -144,8 +153,23 @@ li.item{
     transition: color 0.3s ease-in-out;
 }
 .color_animation:hover{
-    color: #9BE86F !important;
+    color: #f15500 !important;
 }
+
+.color_animation_login {
+    text-decoration: initial;
+    /* word-spacing: 5px; */
+    margin-right: -30px;
+    margin-left: -30px !important;
+    color: white !important;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+
 /*========================
     NAV
 =========================*/
@@ -351,7 +375,7 @@ FIRST FOOTER CONTENT
 }
 
 .social_info a:hover {
-    color: #6c8f34;
+    color: #f15500;
 }
 
 .social_icons {
@@ -376,7 +400,7 @@ FIRST FOOTER CONTENT
 }
 
 .social_icons li a:hover {
-    color: #6c8f34;
+    color: #f15500;
 }
 
 .direction a{
@@ -646,7 +670,7 @@ MEDIA QUERIES TABLET
         transition: color 0.3s ease-in-out;
     }
     .main-nav a:hover {
-        color: #6c8f34;
+        color: #f15500;
     }
     .direction a {
         border: 5px solid rgba(0,0,0,0);
